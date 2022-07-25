@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --green-light:#00ffbc;
+    --green-dark:#071812;
+    --green-black:#020a07;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.15;
+  outline: none;
+  transition: 0.5s ease-in-out !important;
+  font-family: 'Cairo', sans-serif;
+}
+a {
+  text-transform: capitalize;
+  color: #FFF !important;
+}
+
+.active{
+    background-color: var(--green-light);
+    color: var(--green-dark) !important;
+    font-weight: 700 !important;
+}
+.text-primary{
+    color: var(--green-light) !important;
+}
+.bg-primary{
+    background-color: var(--green-light) !important;
+}
+.bg-dark{
+    background-color: var(--green-dark) !important;
+}
+.bg-black{
+    background-color: var(--green-black) !important;
+}
+.border-primary{
+    border-color: var(--green-light) !important;
+}
+
+
+header {
+  height: 100vh !important;
+  background: url(../img/background-div-1.jpg) var(--green-light) no-repeat center center;
+  background-size: cover;
+}
+header img {
+  width: 170px !important;
+}
+header .h-10 {
+    height: 10vh !important;
+
+}
+header .hero {
+    height: 90vh !important;
+
+}
+
+header .hero h1{
+    font-size: 95px !important;
+    line-height: 0.7 !important;
+}
+header .hero p{
+    font-size: 23px !important;
+    width: 45% !important;
+    line-height: 1.5 !important;
+    border-left: 5px solid var(--green-light);
+}
+a:hover{
+   background-color: var(--green-light);
+   color: #fff !important;
+}
+
+.service h2::before{
+    content: '';
+    position: absolute;
+    background-color: var(--green-light);
+    width: 100px;
+    height: 5px;
+    bottom:0;
+    border-radius: 5px;
+
+}
+
+
+.serv2{
+    min-height: 100vh;
+    background: var(--green-dark) url(../img/background-div-3.jpg) no-repeat ;
+}
+
+
